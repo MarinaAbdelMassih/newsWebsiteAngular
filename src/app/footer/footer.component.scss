@@ -1,0 +1,17 @@
+$backgroundcolor:#212529 !important;
+$textColor: #fff !important;
+$paddingFoter:20px;
+
+$zindexx:9999;
+
+$w:100%;
+
+footer{ 
+    background-color:$backgroundcolor;
+    padding: $paddingFoter;
+    color:$textColor;
+    width: $w;
+  
+   text-align: center;
+}
+ 

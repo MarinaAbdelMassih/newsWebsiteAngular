@@ -1,0 +1,54 @@
+$marginTop:30px;
+$widthimg:100%;
+$heightimg:50%;
+
+.row{
+    margin-top: $marginTop;
+}
+img{
+width: $widthimg;
+margin-right: 0% !important;
+
+}
+.wp{width:100%;
+padding-right: 15px;}
+i{
+    cursor: pointer;
+}
+a:link {
+    text-decoration: none;
+  }
+
+  .side
+  {
+     
+      padding: 20px;
+      box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+     
+  }
+
+
+.boxCOM{
+  
+    border: 1px solid gray;
+}
+.name{font-weight: 600;
+font-size: 20px;}
+
+.by{
+    font-weight: 700;
+font-size: 22px;
+
+}
+
+#btnUp
+{
+   border: none !important;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 10;
+   background-color: #dc3545;
+   
+}
+

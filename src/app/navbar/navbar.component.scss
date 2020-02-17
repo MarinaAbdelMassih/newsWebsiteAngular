@@ -1,0 +1,15 @@
+$navbrand:700;
+
+.navbar-brand{
+    font-weight: $navbrand;
+    position: relative;
+
+}
+.navbar-brand::after{
+    content: "inc";
+    position: absolute;
+    left: 42px;
+    top:10px;
+    font-size: 10px;
+   
+}
